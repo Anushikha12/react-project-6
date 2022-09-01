@@ -26,7 +26,7 @@ const Header = () => {
         <Route path='/hollywood' element={<Hollywood/>}></Route>
         <Route path='/fitness' element={<Fitness/>}></Route>
         <Route path='/food' element={<Food/>}></Route>
-        <Route path='/article/:articleTitle' element={<ContentPage/>}></Route>
+        <Route path='/article/:articleTitle/:articleCategory' element={<ContentPage/>}></Route>
         <Route path='*' element={<PageNotFound/>}></Route>
        </Routes>
      

@@ -15,7 +15,7 @@ const Latest_stories = () => {
                     if(i>=tech_data.length-1){
                         return(
                             <div className="story1" key={i}>
-                            <h3 style={{color:'brown'}}><Link to={`/article/${val.title}`}>{val.title}</Link></h3><br/>
+                            <h3 style={{color:'brown'}}><Link to={`/article/${val.title}/${val.CategoryName}`}>{val.title}</Link></h3><br/>
                             <p>{val.content}</p>
                             <br/>
                             <h4  style={{color:'brown'}}>{val.date}</h4>
@@ -29,7 +29,7 @@ const Latest_stories = () => {
                     if(i>=fitness_data.length-1){
                         return(
                             <div className="story1" key={i}>
-                            <h3 style={{color:'brown'}}><Link to={`/article/${val.title}`}>{val.title}</Link></h3><br/>
+                            <h3 style={{color:'brown'}}><Link to={`/article/${val.title}/${val.CategoryName}`}>{val.title}</Link></h3><br/>
                             <p>{val.content}</p>
                             <br/>
                             <h4 style={{color:'brown'}}>{val.date}</h4>
@@ -43,7 +43,7 @@ const Latest_stories = () => {
                     if(i>=food_data.length-1){
                         return(
                             <div className="story1" key={i}>
-                            <h3 style={{color:'brown'}}><Link to={`/article/${val.title}`}>{val.title}</Link></h3><br/>
+                            <h3 style={{color:'brown'}}><Link to={`/article/${val.title}/${val.CategoryName}`}>{val.title}</Link></h3><br/>
                             <p>{val.content}</p>
                             <br/>
                             <h4 style={{color:'brown'}}>{val.date}</h4>

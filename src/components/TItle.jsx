@@ -2,7 +2,7 @@ import React from 'react'
 
 const TItle = () => {
   return (
-    <h1>The Siren</h1>
+    <h1><span className='the'>The </span>Siren</h1>
   )
 }
 

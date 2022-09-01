@@ -20,7 +20,7 @@ const Latest = () => {
                   <>
                   <img src={val.img} alt="" width="350px" height="200px" style={{marginTop:'15px',borderRadius:'25px'}} className='element-image' />
                   <div className="element-content">
-                    <h4><Link to={`/article/${val.title}`}>{val.title}</Link></h4><br/>
+                    <h4><Link to={`/article/${val.title}/${val.CategoryName}`}>{val.title}</Link></h4><br/>
                     <p>{val.content}</p><br/>
                     <h5>{val.date}</h5>
                   </div>
@@ -40,7 +40,7 @@ const Latest = () => {
                   <>
                   <img src={val.img} alt="" width="350px" height="200px" style={{marginTop:'15px',borderRadius:'25px'}} className='element-image' />
                   <div className="element-content">
-                    <h4><Link to={`/article/${val.title}`}>{val.title}</Link></h4><br/>
+                    <h4><Link to={`/article/${val.title}/${val.CategoryName}`}>{val.title}</Link></h4><br/>
                     <p>{val.content}</p><br/>
                     <h5>{val.date}</h5>
                   </div>
@@ -60,7 +60,7 @@ const Latest = () => {
                   <>
                   <img src={val.img} alt="" width="350px" height="200px" style={{marginTop:'15px',borderRadius:'25px'}} className='element-image' />
                   <div className="element-content">
-                    <h4><Link to={`/article/${val.title}`}>{val.title}</Link></h4><br/>
+                    <h4><Link to={`/article/${val.title}/${val.CategoryName}`}>{val.title}</Link></h4><br/>
                     <p>{val.content}</p><br/>
                     <h5>{val.date}</h5>
                   </div>

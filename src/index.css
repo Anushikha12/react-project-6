@@ -5,7 +5,15 @@
 }
 h1 {
     text-align:center;
-    font-size:50px;
+    font-size:60px;
+}
+.the {
+    writing-mode: vertical-rl;
+    text-align:center;
+    font-size:25px;
+    transform: rotate(180deg);
+    margin-right:10px;
+    font-weight: lighter;
 }
 .nav {
     margin-top:20px;
@@ -251,5 +259,47 @@ card {
         display:block;
     }
 
+}
+@media (max-width:600px) {
+    .element {
+        display:flex;
+        flex-direction: column;
+    }
+     .element-image {
+        width:100%;
+        height:auto;
+    } 
+    .element-content {
+        width:100%;
+        height:auto;
+    }
+    .right-container {
+        display:none;
+    }
+    .bolly-content {
+        width:100%;
+        height:auto;
+        font-size:1rem;
+    }
+     .text , .tech-title-user {
+        width:200%;
+        height:auto;
+        margin:auto;
+    }
+    .tech-image {
+        width:100%;
+        height:auto;
+        margin:auto;
+    }
+    .tech-h2 {
+        width:230%;
+        height:auto;
+        margin:auto;
+    }
+    .tech-footer {
+        width:180%;
+        margin:auto;
+        height:auto;
+    }
 }
 

@@ -14,7 +14,7 @@ const Technology = () => {
         tech_data.map((val,i)=>{
           return(
               <Bolly_card img={val.img} title={val.title} date={val.date}
-              content={val.content} key={i}/>
+              content={val.content} CategoryName={val.CategoryName} key={i}/>
           )
         })
       }

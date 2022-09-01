@@ -15,7 +15,7 @@ export const food_data=[
     },
     {
         "img":"https://images.pexels.com/photos/4913345/pexels-photo-4913345.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "title":"Are Dim Sums really healthy? Here’s the truth",
+        "title":"Are Dim Sums really healthy? Heres the truth",
         "content":"Traditionally, Dim Sum refers to a Chinese meal made of small plates of dumplings usually accompanied by tea. They are mostly steamed and stuffed with a wide range of ingredients, which keeps them healthier. However, many people debate whether Dim Sums are healthy. In a recent post on Instagram, nutritionist and author Pooja Makhija tried resolving this debate and mentioned the benefits of steaming, the key method of making Dim Dums. She mentioned,'Cooking with steam is both versatile and healthy.'Scroll down to discover the benefits of eating dim sums.",
         "date":" Last updated on -Aug 23, 2022, 10:22 IST",
         "CategoryName": "Food"
